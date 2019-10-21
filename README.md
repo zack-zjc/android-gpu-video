@@ -16,10 +16,10 @@
 
 ## 功能
 
-# 功能实现参照-添加的视频滤镜
-[GPUImage]https://github.com/cats-oss/android-gpuimage
+### 功能实现参照-添加的视频滤镜
+[GPUImage](https://github.com/cats-oss/android-gpuimage)
 
-# 滤镜添加可参照GPUImage实现
+### 滤镜添加可参照GPUImage实现
 1.基础滤镜无特效 (GPUVideoFilter.kt)
 
 2.参照图片实现特效 (GpuVideoLookUpFilter.kt)
@@ -28,17 +28,17 @@
 
 4.自定义添加美颜滤镜 （GPUVideoBeautyFilter.kt）
 
-# 参数功能
+### 参数功能
 1.设置画面比例 （9-16,1-1,16-9，默认，可自行添加设定）
 
 2.设置视频裁剪样式（Fit-Center,Center-crop，可自行添加设定）
 
 3.设置旋转角度 （0，90，180，270，角度可自行添加）
 
-# 说明
+### 说明
 1.功能扩展可查看代码自行添加，有注释可在GpuRender.adjustVideoSize中修改
 
-# 注意
+## 注意
 自定义滤镜时视频播放器的片元着色器与GPUImage的着色器存在差异，主要注意samplerExternalOES与sampler2D的差异，参考具体代码实现
 
 ```groovy
@@ -59,5 +59,5 @@
 	}
 ```	
 
-## 效果图
-![image](https://github.com/zack-zjc/android-gpu-video/blob/master/image/1.png?raw=true)
+### Demo效果图
+![image](https://github.com/zack-zjc/android-gpu-video/blob/master/image/1.jpg?raw=true)
