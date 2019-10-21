@@ -60,4 +60,4 @@
 ```	
 
 ### Demo功能
-<img src="https://github.com/zack-zjc/android-gpu-video/blob/master/1.jpg?raw=true"  height="360" width="720">
+<img src="https://github.com/zack-zjc/android-gpu-video/blob/master/1.jpg?raw=true"  height="720" width="360">
