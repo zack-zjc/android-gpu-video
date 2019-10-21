@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.zack.gpu.gpuvideo.GpuSurfaceView
+            android:id="@+id/id_surface"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/fit"
+            android:text="Fit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/crop"
+            android:text="CenterCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/rotate"
+            android:text="旋转"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/surface"
+            android:text="画面比例"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+include ':app'
+
+include ':GpuVideoLibrary'
+project(':GpuVideoLibrary').projectDir = new File('GpuVideoLibrary')
