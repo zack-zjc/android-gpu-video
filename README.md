@@ -59,5 +59,5 @@
 	}
 ```	
 
-### Demo效果图
-![功能包含图](https://github.com/zack-zjc/android-gpu-video/blob/master/1.jpg?raw=true)
+### Demo功能
+<img src="https://github.com/zack-zjc/android-gpu-video/blob/master/1.jpg?raw=true"  height="360" width="720">
