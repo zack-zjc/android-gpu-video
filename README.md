@@ -22,7 +22,7 @@
 ### 滤镜添加可参照GPUImage实现
 1.基础滤镜无特效 (GPUVideoFilter.kt)
 
-2.参照图片实现特效 (GpuVideoLookUpFilter.kt)
+2.参照图片实现特效与GPUImage的LookUpFilter一样的使用方式 (GpuVideoLookUpFilter.kt)
 
 3.滤镜组合特效 (GpuVideoGroupFilter.kt)
 
@@ -60,4 +60,4 @@
 ```	
 
 ### Demo效果图
-![image](https://github.com/zack-zjc/android-gpu-video/blob/master/image/1.jpg?raw=true)
+![功能包含图](https://github.com/zack-zjc/android-gpu-video/blob/master/1.jpg?raw=true)
