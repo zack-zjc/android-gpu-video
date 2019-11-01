@@ -41,6 +41,9 @@
 ## 注意
 自定义滤镜时视频播放器的片元着色器与GPUImage的着色器存在差异，主要注意samplerExternalOES与sampler2D的差异，参考具体代码实现
 
+视频画面的渲染使用的是Android的拓展纹理#extension GL_OES_EGL_image_external : require,我们已经知道，视频的画面色彩空间是YUV，而要显示到屏幕上，画面是RGB的，所以，要把视频画面渲染到屏幕上，必须把YUV转换为RGB。拓展纹理就起到了这个转换的作用。着色器中纹理单元也换成了拓展纹理单元。
+部分说明可参照：https://juejin.im/post/5db94f73e51d452a401ce102
+
 ```groovy
 	//视频着色器
 	#extension GL_OES_EGL_image_external : require
